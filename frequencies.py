@@ -4,6 +4,6 @@
 def frequencies(items):
     frequencies = {}
     # Your code goes here
-    for key in frequencies:
+    for key in items:
         frequencies[key] = frequencies.get(key, 0) + 1
     return frequencies
